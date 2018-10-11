@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Six_ages',
     'sign_in',
+    'Welcome',
+    'registration',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +127,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "Game_images"),
+]

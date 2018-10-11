@@ -12,7 +12,16 @@
 	    <!-- Latest compiled JavaScript -->
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style>
+            .game{
+                    border: 1px solid #c4b9b9;
+                    background-color: #f5f5f5;
+                    border-radius: 8px;
+                    /*padding-top: 10px;*/
+            }
 
+            .card-top-image{
+                    border-radius: 5px;
+            }
         </style>
 	    <title>Home Page</title>
 </head>
@@ -25,12 +34,16 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		        </button>
-			<a class="navbar-brand" href="#">Logo</a>
+			<a class="navbar-brand" href="#">SIX-AGES</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 	      			<ul class="nav navbar-nav">
-					    <li class="active"><a href="#">Home</a></li>
-					    <li><a href="#">Messages</a></li>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Arcade</a></li>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Puzzle</a></li>
+                        <li><a href="#">Sport</a></li>
+                        <li><a href="#">Strategy</a></li>
 	      			</ul>
 	      			<form class="navbar-form navbar-right" role="search">
 					<div class="form-group input-group">
@@ -43,7 +56,21 @@
 					</div>
 			      	</form>
 			      	<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span class="glyphicon glyphicon-user"></span>
+                                    My Account
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Signed in as xx</a></li>
+                                <hr style="margin: 0px;">
+                                <li><a href="#">Your Profile</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                        </li>
 			      	</ul>
 			</div>
 		</div>
@@ -51,40 +78,58 @@
 
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-sm-3 well">
+            <div class="col-sm-2 well">
                 <div class="well">
                     <p><a href="#">My Profile</a></p>
                     <img src="../static/images/SixAgesLogo.png" class="img-circle" height="65" width="65" alt="Avatar">
                 </div>
                 <div class="well">
-                    <p><a href="#">Game Categories</a></p>
+                    <p style="color: blue">Top Charts</p>
                     <div class="list-group">
-                        <a href="#" class="list-group-item">Action<span class="badge">5</span></a>
-                        <a href="#" class="list-group-item">Adventure<span class="badge">4</span></a>
-                        <a href="#" class="list-group-item">Arcade<span class="badge">7</span></a>
-                        <a href="#" class="list-group-item">Board<span class="badge">15</span></a>
-                        <a href="#" class="list-group-item">Card<span class="badge">16</span></a>
-                        <a href="#" class="list-group-item">Educational<span class="badge">14</span></a>
-                        <a href="#" class="list-group-item">Puzzle<span class="badge">5</span></a>
-                        <a href="#" class="list-group-item">Racing<span class="badge">9</span></a>
-                        <a href="#" class="list-group-item">Sports<span class="badge">4</span></a>
-                        <a href="#" class="list-group-item">Word<span class="badge">6</span></a>
-                        <a href="#" class="list-group-item">Others<span class="badge">25</span></a>
+                        <a href="#" class="list-group-item">Top 10 games</a>
+                        <a href="#" class="list-group-item">Editors Choice</a>
+                        <a href="#" class="list-group-item">Top 10 Arcade</a>
+                        <a href="#" class="list-group-item">Top 10 Action </a>
+                        <a href="#" class="list-group-item">Top 10 Puzzle</a>
+                        <a href="#" class="list-group-item">Top 10 Strategy</a>
+                        <a href="#" class="list-group-item">Top 10 Sport</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-5">
-                <div class="panel panel-default text-left">
-                    <div class="panel-body">
-                        <p contenteditable="true">Status: Feeling Blue</p>
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span class="glyphicon glyphicon-thumbs-up"></span> Like
-                        </button>
+            {% load static %}
+            <div class="col-sm-7">
+                <div class="row">
+                    {% for game in mygame %}
+                    <div class="col-sm-2 ">
+                         <div class="card game">
+                            <img src="{% static '' %}{{game.game_images}}" alt="card three" class="card-top-image" width="100" height="100">
+                             <div class="card-body">
+                                   <p>{{game.game_display_name}}</p>
+                                 <a href="#">
+                                     {% for i in "x"|rjust:game.game_rating%}
+                                     <span class="glyphicon glyphicon-star-empty"></span>
+                                     {% endfor %}
+                                 </a>
+                             </div>
+                        </div>
                     </div>
+                    {% endfor %}
+
+
+
                 </div>
-            </div>
-            <div class="col-sm-4 well">
+             </div>
+                <!--<div class="panel panel-default text-left">-->
+                    <!--<div class="panel-body">-->
+                        <!--<p contenteditable="true">Status: Feeling Blue</p>-->
+                        <!--<button type="button" class="btn btn-default btn-sm">-->
+                            <!--<span class="glyphicon glyphicon-thumbs-up"></span> Like-->
+                        <!--</button>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            <div class="col-sm-3">
                 <p>Upcoming Launches:</p><img src="../static/images/upcoming.png" alt="Paris" width="350" height="200">
                 <p>Fri. 27 November 2015</p>
                 <p>Hot Games</p>

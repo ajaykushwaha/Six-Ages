@@ -16,9 +16,15 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from sign_in import views
+from sign_in.views import sign_in
+from Welcome.views import welcome
+from registration.views import register
+from Six_ages.views import mainpage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('signin/',views.sign_in,name='signin'),
+    path('', welcome, name='welcome'),
+    path('signin/',sign_in,name='signin'),
+    path('signup/',register,name='signup'),
+    path('mainpage/',mainpage,name='mainpage'),
 ]
