@@ -1,178 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	    <title>Online Gaming</title>
-	    <meta charset="UTF-8">
-	    <!-- Latest compiled and minified CSS -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+{% extends "mainpage_template.html" %}
+{% block title %} All-games {% endblock %}
 
-	    <!-- jQuery library -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	    <!-- Latest compiled JavaScript -->
-	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <style>
-            .game{
-                    border: 1px solid #c4b9b9;
-                    background-color: #f5f5f5;
-                    border-radius: 8px;
-                    /*padding-top: 10px;*/
-            }
-
-            .card-top-image{
-                    border-radius: 5px;
-            }
-        </style>
-	    <title>Home Page</title>
-</head>
-<body>
-	<nav class="navbar navbar-inverse">
-        	<div class="container-fluid">
-            		<div class="navbar-header">
-		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		        </button>
-			<a class="navbar-brand" href="#">SIX-AGES</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-	      			<ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Arcade</a></li>
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Puzzle</a></li>
-                        <li><a href="#">Sport</a></li>
-                        <li><a href="#">Strategy</a></li>
-	      			</ul>
-	      			<form class="navbar-form navbar-right" role="search">
-					<div class="form-group input-group">
-		  				<input type="text" class="form-control" placeholder="Search..">
-		  				<span class="input-group-btn">
-				    			<button class="btn btn-default" type="button">
-				      				<span class="glyphicon glyphicon-search"></span>
-				    			</button>
-				  		</span>
-					</div>
-			      	</form>
-			      	<ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="glyphicon glyphicon-user"></span>
-                                    My Account
-                                <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Signed in as xx</a></li>
-                                <hr style="margin: 0px;">
-                                <li><a href="#">Your Profile</a></li>
-                                <li><a href="#">Help</a></li>
-                                <li><a href="#">Settings</a></li>
-                                <li><a href="#">Logout</a></li>
-                            </ul>
-                        </li>
-			      	</ul>
-			</div>
-		</div>
-	</nav>
-
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col-sm-2 well">
-                <div class="well">
-                    <p><a href="#">My Profile</a></p>
-                    <img src="../static/images/SixAgesLogo.png" class="img-circle" height="65" width="65" alt="Avatar">
-                </div>
-                <div class="well">
-                    <p style="color: blue">Top Charts</p>
-                    <div class="list-group">
-                        <a href="#" class="list-group-item">Top 10 games</a>
-                        <a href="#" class="list-group-item">Editors Choice</a>
-                        <a href="#" class="list-group-item">Top 10 Arcade</a>
-                        <a href="#" class="list-group-item">Top 10 Action </a>
-                        <a href="#" class="list-group-item">Top 10 Puzzle</a>
-                        <a href="#" class="list-group-item">Top 10 Strategy</a>
-                        <a href="#" class="list-group-item">Top 10 Sport</a>
-                    </div>
-                </div>
-            </div>
-
-            {% load static %}
-            <div class="col-sm-7">
-                <div class="row">
-                    {% for game in mygame %}
-                    <div class="col-sm-2 ">
-                         <div class="card game">
-                            <img src="{% static '' %}{{game.game_images}}" alt="card three" class="card-top-image" width="100" height="100">
-                             <div class="card-body">
-                                   <p>{{game.game_display_name}}</p>
-                                 <a href="#">
-                                     {% for i in "x"|rjust:game.game_rating%}
-                                     <span class="glyphicon glyphicon-star-empty"></span>
-                                     {% endfor %}
-                                 </a>
-                             </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-
-
-
-                </div>
-             </div>
-                <!--<div class="panel panel-default text-left">-->
-                    <!--<div class="panel-body">-->
-                        <!--<p contenteditable="true">Status: Feeling Blue</p>-->
-                        <!--<button type="button" class="btn btn-default btn-sm">-->
-                            <!--<span class="glyphicon glyphicon-thumbs-up"></span> Like-->
-                        <!--</button>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-            <div class="col-sm-3">
-                <p>Upcoming Launches:</p><img src="../static/images/upcoming.png" alt="Paris" width="350" height="200">
-                <p>Fri. 27 November 2015</p>
-                <p>Hot Games</p>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="../static/images/zombie.jpg" alt="Zombie" style="width:100%;">
-                        </div>
-
-                        <div class="item">
-                            <img src="../static/images/war.jpg" alt="War" style="width:100%;">
-                        </div>
-
-                        <div class="item">
-                            <img src="../static/images/pokemon.jpg" alt="Pokemon" style="width:100%;">
-                        </div>
-
-                        <div class="item">
-                            <img src="../static/images/online-casino.jpg" alt="Casino" style="width:100%;">
-                        </div>
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+{% block content %}
+    {% load static %}
+    <div class="row" style="margin-bottom: 10px;">
+        {% for game in mygame %}
+        <div class="col-sm-2 ">
+             <div class="card game">
+                 <a href="http://127.0.0.1:8000/mainpage/show_game/{{game.game_swf}}">
+                     <img src="{% static '' %}{{game.game_images}}" alt="card three" class="card-top-image" width="100" height="100">
+                 </a>
+                 <div class="card-body">
+                     <p>{{game.game_display_name}}</p>
+                         {% for i in "x"|rjust:game.game_rating%}
+                         <span class="glyphicon glyphicon-star" style="color: gold"></span>
+                         {% endfor %}
+                 </div>
             </div>
         </div>
+        {% if forloop.counter|divisibleby:6 %}
+        </div>
+        <div class="row" style="margin-bottom: 10px;">
+        {% endif %}
+        {% endfor %}
+        </div>
 
-
-    </div>
-</body>
-</html>
+{% endblock %}
