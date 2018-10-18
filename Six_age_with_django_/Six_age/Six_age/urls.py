@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from sign_in.views import sign_in
-from Welcome.views import welcome,arcade,action,puzzle,sport,strategy
+from Welcome.views import welcome,arcade,action,puzzle,sport,strategy,welcome_game_play
 from registration.views import register
-from Six_ages.views import mainpage,show_game
+from Six_ages.views import mainpage,show_game,filter_type
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -33,4 +33,6 @@ urlpatterns = [
     path('sport/',sport,name='sport'),
     path('strategy/',strategy,name='strategy'),
     path('mainpage/show_game/<game_name>.swf', show_game, name='show_game'),
+    path('mainpage/filter/<filter_name>', filter_type, name='filter_type'),
+    path('game/<game_name>.swf', welcome_game_play, name='welcome_game_play'),
 ]

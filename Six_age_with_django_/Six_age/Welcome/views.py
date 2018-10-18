@@ -24,3 +24,7 @@ def sport(request):
 def strategy(request):
     objects = Game.objects.filter(game_type='Strategy')
     return render(request, 'type_game_show.html',{"mygame" : objects,"active6" : 'active'})
+
+
+def welcome_game_play(request, game_name):
+    return render(request, 'game_play.html', {"game_title": game_name})

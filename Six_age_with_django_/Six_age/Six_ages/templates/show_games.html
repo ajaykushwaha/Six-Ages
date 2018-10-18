@@ -4,11 +4,94 @@
 {% block content %}
     {% load static %}
 
-    <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="720" height="480">
-      <param name="movie" value="{% static '' %}{{game_title}}.swf" />
-      <param name="quality" value="high" />
-      <embed src="{% static '' %}{{game_title}}.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="720" height="480"></embed>
-    </object>
+    <div class="row">
+        <div class="col-sm-12">
+            <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="720" height="480">
+              <param name="movie" value="{% static '' %}{{game_title}}.swf" />
+              <param name="quality" value="high" />
+              <embed src="{% static '' %}{{game_title}}.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="720" height="480"></embed>
+            </object>
+        </div>
+    </div>
+    <div class="row">
 
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-1">
+
+        </div>
+        <div class="col-sm-10 well" >
+                  <div class="panel panel-default text-left">
+                      <form>
+                            <div class="form-group" style="margin: 0px">
+                              <textarea class="form-control" rows="2" id="comment" style="resize:none"></textarea>
+                            </div>
+                      </form>
+                  </div>
+                  <button type="button" class="btn btn-default btn-sm" style="float: right">
+                        <span class="glyphicon glyphicon-pencil"></span>  Comment
+                  </button>
+            </div>
+        <div class="col-sm-1">
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-1">
+
+        </div>
+        <div class="col-sm-10" style="padding: 0">
+        <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="media">
+                    <div class="media-left">
+                      <img src="{% static '' %}avatar/bulba.png" class="media-object" style="width:60px" alt="Haha">
+                    </div>
+                    <div class="media-body" style="text-align: left">
+                      <h4 class="media-heading">Big Boss Baby</h4>
+                      <p style="margin: 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="media">
+                    <div class="media-left">
+                      <img src="{% static '' %}avatar/bulba.png" class="media-object" style="width:60px" alt="Haha">
+                    </div>
+                    <div class="media-body" style="text-align: left">
+                      <h4 class="media-heading">Big Boss Baby</h4>
+                      <p style="margin: 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="media">
+                    <div class="media-left">
+                      <img src="{% static '' %}avatar/bulba.png" class="media-object" style="width:60px" alt="Haha">
+                    </div>
+                    <div class="media-body" style="text-align: left">
+                      <h4 class="media-heading">Big Boss Baby</h4>
+                      <p style="margin: 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+
+        </div>
+        <div class="col-sm-1">
+
+        </div>
+    </div>
 
 {% endblock %}

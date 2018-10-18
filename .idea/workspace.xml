@@ -2,43 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2009b6-903b-46fa-98b5-a31d593a9adf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/asea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/boxhead_the_nightmare-biever_and_baby.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/checkerscode.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/ezr2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/game_details.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/neon2-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/pf2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/reachthesky_70x70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/saturdaynightbloodfest.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/stickmansam3_70x70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/suprb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/thing-thing-arena-classic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/thing-thing-arena-pro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/thing-thing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/thing-thing2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/thing-thing4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/thing-thingarena.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/toxie-radd-3d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/zh3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/zombierampage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/migrations/0001_initial.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/game_details.xlsx" afterPath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/game_details.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/models.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/templates/signIn.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/templates/signIn.html" />
     </list>
     <ignored path="Six-Ages.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,39 +31,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html">
+      <file leaf-file-name="mainpage_template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="449">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding>
-                <element signature="e#632#664#0" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#ul#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,14 +61,15 @@
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/game_play.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" />
       </list>
     </option>
   </component>
@@ -233,54 +179,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Six_ages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -308,54 +206,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,6 +311,123 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Six-Ages" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Six-Ages" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Six-Ages" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Six-Ages" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Six-Ages" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -488,10 +455,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2934947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2934947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -523,7 +490,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py</url>
+          <line>26</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -532,9 +507,9 @@
         <state relative-caret-position="119">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,6 +538,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -570,6 +546,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -588,9 +565,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,34 +714,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -772,62 +721,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html">
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="210">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html">
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/game_play.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="510">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="50" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py">
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        <state relative-caret-position="145">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#ul#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
