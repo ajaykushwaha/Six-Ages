@@ -32,7 +32,7 @@
 </head>
 <body>
     {% load static %}
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="height: 0">
         	<div class="container-fluid">
             		<div class="navbar-header">
 		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -45,28 +45,23 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 	      			<ul class="nav navbar-nav">
                        <li class="{{ active1}}"><a href="http://127.0.0.1:8000">Home</a></li>
-                       <li class="{{ active2 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Arcade">Arcade</a></li>
-                       <li class="{{ active3 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Action">Action</a></li>
-                       <li class="{{ active4 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Puzzle">Puzzle</a></li>
-                       <li class="{{ active5 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Sport">Sport</a></li>
-                       <li class="{{ active6 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Strategy">Strategy</a></li>
+                       <li class="{{ active2 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Arcade/?page=1">Arcade</a></li>
+                       <li class="{{ active3 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Action/?page=1">Action</a></li>
+                       <li class="{{ active4 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Puzzle/?page=1">Puzzle</a></li>
+                       <li class="{{ active5 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Sport/?page=1">Sport</a></li>
+                       <li class="{{ active6 }}"><a href="http://127.0.0.1:8000/mainpage/filter/Strategy/?page=1">Strategy</a></li>
 	      			</ul>
-	      			<form class="navbar-form navbar-right" role="search">
+	      			<form class="navbar-form navbar-right" role="search" action="http://127.0.0.1:8000/mainpage/search/">
 					<div class="form-group input-group">
-		  				<input type="text" class="form-control" placeholder="Search..">
+		  				<input type="text" class="form-control" placeholder="Search.." value="{{search_term}}" name="term">
 		  				<span class="input-group-btn">
-				    			<button class="btn btn-default" type="button">
-				      				<span class="glyphicon glyphicon-search"></span>
-				    			</button>
+                            <button class="btn btn-default" type="submit" >
+                            <span class="glyphicon glyphicon-search"></span>
+                            </button>
 				  		</span>
 					</div>
-                        <div class="list-group">
-                            <a href="#" class="list-group-item">First item</a>
-                            <a href="#" class="list-group-item">Second item</a>
-                            <a href="#" class="list-group-item">Third item</a>
-                        </div>
 			      	</form>
-                
+
 			      	<ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -75,12 +70,12 @@
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Signed in as xx</a></li>
-                                <hr style="margin: 0px;">
+                                <li><a href="#">Signed in as {{ username }}</a></li>
+                                <hr style="margin: 0;">
                                 <li><a href="#">Your Profile</a></li>
                                 <li><a href="#">Help</a></li>
                                 <li><a href="#">Settings</a></li>
-                                <li><a href="#">Logout</a></li>
+                                <li><a href="http://127.0.0.1:8000/mainpage/logout">Logout</a></li>
                             </ul>
                         </li>
 			      	</ul>
@@ -95,18 +90,55 @@
                 <div class="affix">
                 <div class="well">
                     <p><a href="#">My Profile</a></p>
-                    <img src="{% static '' %}SixAgesLogo.png" class="img-circle" height="65" width="65" alt="Avatar">
+                    <img src="{% static '' %}{{avatar_image}}" class="img-circle" height="65" width="65" alt="Avatar">
                 </div>
                 <div class="well">
                     <p style="color: blue">Top Charts</p>
                     <div class="list-group">
-                        <a href="#" class="list-group-item">Top 10 games</a>
-                        <a href="#" class="list-group-item">Editors Choice</a>
-                        <a href="#" class="list-group-item">Top 10 Arcade</a>
-                        <a href="#" class="list-group-item">Top 10 Action </a>
-                        <a href="#" class="list-group-item">Top 10 Puzzle</a>
-                        <a href="#" class="list-group-item">Top 10 Strategy</a>
-                        <a href="#" class="list-group-item">Top 10 Sport</a>
+
+                        {% with my_url="/mainpage/top_chart/all_games" %}
+                        <a href="http://127.0.0.1:8000/mainpage/top_chart/all_games"
+                           class="list-group-item  {% if request.get_full_path == my_url %}active{% endif %}">
+
+                            All games</a>
+                        {% endwith %}
+
+                        {% with my_url="/mainpage/top_chart/t_10_editors_choice" %}
+                        <a href="http://127.0.0.1:8000/mainpage/top_chart/t_10_editors_choice"
+                           class="list-group-item {% if request.get_full_path == my_url %}active{% endif %}">
+                            Editors Choice</a>
+                        {% endwith %}
+
+                        {% with my_url="/mainpage/top_chart/t_10_arcade" %}
+                        <a href="http://127.0.0.1:8000/mainpage/top_chart/t_10_arcade"
+                           class="list-group-item {% if request.get_full_path == my_url %}active{% endif %}">
+                            Top 10 Arcade</a>
+                        {% endwith %}
+
+                        {% with my_url="/mainpage/top_chart/t_10_action" %}
+                        <a href="http://127.0.0.1:8000/mainpage/top_chart/t_10_action"
+                           class="list-group-item {% if request.get_full_path == my_url %}active{% endif %}">
+                            Top 10 Action </a>
+                        {% endwith %}
+
+                        {% with my_url="/mainpage/top_chart/t_10_puzzle" %}
+                        <a href="http://127.0.0.1:8000/mainpage/top_chart/t_10_puzzle"
+                           class="list-group-item {% if request.get_full_path == my_url %}active{% endif %}">
+                            Top 10 Puzzle</a>
+                        {% endwith %}
+
+                        {% with my_url="/mainpage/top_chart/t_10_strategy" %}
+                        <a href="http://127.0.0.1:8000/mainpage/top_chart/t_10_strategy"
+                           class="list-group-item {% if request.get_full_path == my_url %}active{% endif %}">
+                            Top 10 Strategy</a>
+                        {% endwith %}
+
+                        {% with my_url="/mainpage/top_chart/t_10_sport" %}
+                        <a href="http://127.0.0.1:8000/mainpage/top_chart/t_10_sport"
+                           class="list-group-item {% if request.get_full_path == my_url %}active{% endif %}">
+                            Top 10 Sport</a>
+                        {% endwith %}
+
                     </div>
                 </div>
                 </div>
@@ -163,7 +195,21 @@
             </div>
         </div>
         </div>
-
+        <div class="row">
+            {% if mygame.paginator.num_pages > 1 %}
+            <ul class="pagination pagination-lg">
+                {% for pg_no in mygame.paginator.page_range %}
+                {% with pg_no=pg_no|stringformat:"i" %}
+                {% with my_url=request.path|add:"?page="|add:pg_no%}
+                <li {% if request.get_full_path == my_url %}class="active"{% endif %}>
+                    <a href="http://127.0.0.1:8000{{ request.path }}?page={{pg_no}}">{{pg_no}}</a>
+                </li>
+                {% endwith %}
+                {% endwith %}
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
     </div>
 </body>
 </html>

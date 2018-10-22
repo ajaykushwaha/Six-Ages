@@ -16,16 +16,18 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from sign_in.views import sign_in
+from sign_in.views import sign_in,auth_user
 from Welcome.views import welcome,arcade,action,puzzle,sport,strategy,welcome_game_play
-from registration.views import register
-from Six_ages.views import mainpage,show_game,filter_type
+from registration.views import registration,create_user
+from Six_ages.views import mainpage,show_game,filter_type,search,top_chart,logout,making_comment
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', welcome, name='welcome'),
     path('signin/',sign_in,name='signin'),
-    path('signup/',register,name='signup'),
+    path('signin/redirect',auth_user,name='signin'),
+    path('signup/',registration,name='signup'),
+    path('signup/create_user',create_user,name='signup'),
     path('mainpage/',mainpage,name='mainpage'),
     path('arcade/',arcade,name='arcade'),
     path('action/',action,name='action'),
@@ -33,6 +35,10 @@ urlpatterns = [
     path('sport/',sport,name='sport'),
     path('strategy/',strategy,name='strategy'),
     path('mainpage/show_game/<game_name>.swf', show_game, name='show_game'),
-    path('mainpage/filter/<filter_name>', filter_type, name='filter_type'),
+    path('mainpage/search/', search, name='search'),
+    path('mainpage/logout/', logout, name='logout'),
+    path('mainpage/mycomment/', making_comment, name='logout'),
+    path('mainpage/top_chart/<chart_name>', top_chart, name='top_chart'),
+    path('mainpage/filter/<filter_name>/', filter_type, name='filter_type'),
     path('game/<game_name>.swf', welcome_game_play, name='welcome_game_play'),
 ]

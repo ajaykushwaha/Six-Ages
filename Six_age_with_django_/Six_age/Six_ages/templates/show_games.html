@@ -3,7 +3,29 @@
 
 {% block content %}
     {% load static %}
+    <script>
+        $(document).ready(function(){
+            $('#comment_but').click(function () {
+                console.log("clicked me");
 
+                    var myKeyVals = {
+                        csrfmiddlewaretoken: "{{ csrf_token }}",
+                        comment: "This is just a try",
+                        game_name: "this_game",
+                        user_name: "ajay"
+                };
+
+                $.ajax({
+                      type: 'POST',
+                      url: "http://127.0.0.1:8000/mainpage/mycomment/",
+                      data: myKeyVals,
+                      dataType: "text",
+                      success: function(resultData) { alert("Save Complete") }
+                });
+            });
+
+        });
+    </script>
     <div class="row">
         <div class="col-sm-12">
             <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="720" height="480">
@@ -25,11 +47,11 @@
                   <div class="panel panel-default text-left">
                       <form>
                             <div class="form-group" style="margin: 0px">
-                              <textarea class="form-control" rows="2" id="comment" style="resize:none"></textarea>
+                              <textarea placeholder="Write Comment Here..." class="form-control" rows="2" id="comment" style="resize:none"></textarea>
                             </div>
                       </form>
                   </div>
-                  <button type="button" class="btn btn-default btn-sm" style="float: right">
+                  <button type="button" class="btn btn-default btn-sm" id="comment_but" style="float: right">
                         <span class="glyphicon glyphicon-pencil"></span>  Comment
                   </button>
             </div>

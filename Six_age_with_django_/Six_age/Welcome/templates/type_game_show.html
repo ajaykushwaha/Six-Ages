@@ -4,7 +4,7 @@
 {% block content %}
 
 {% load static %}
-<br><br>
+<br><br><br><br>
     <div class="col-sm-8">
         <div class="row" style="margin-bottom: 10px;">
             {% for game in mygame %}
@@ -26,7 +26,8 @@
     </div>
 
     <div class="col-sm-4">
-        <p>Upcoming Launches:</p><img src="../static/images/upcoming.png" alt="Paris" width="350" height="200" >
+        <div class="affix">
+            <p>Upcoming Launches:</p><img src="../static/images/upcoming.png" alt="Paris" width="350" height="200" >
         <p>Fri. 27 November 2015</p>
         <p>Hot Games</p>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -65,6 +66,8 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        </div>
+
     </div>
 
 {% endblock %}

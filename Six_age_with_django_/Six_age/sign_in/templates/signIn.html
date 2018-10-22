@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Six ages</title>
 </head>
-<body>
+<body background="../static/images/wallpaper.jpg" style="background-size: cover;background-position: center center;">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -48,19 +48,22 @@
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <img src="../static/images/SixAgesLogo.png" class="img-responsive">
-                <h3>Sign in to Six Ages</h3>
+                <h3 class="text-center" style="color: white ;text-shadow: 2px 2px #FF0000">Sign in to Six Ages</h3>
                 <div class="well">
-                    <form action="">
+                    <form action="/signin/redirect" method="post">{% csrf_token %}
                         <div class="form-group">
-                            <label for="email"> Email Id  </label>
-                            <input type="email" class="form-control" id = "email" placeholder="Email or Username">
+                            <label for="Username"> Username  </label>
+                            <input type="text" class="form-control" id = "Username" placeholder="Username" name="Username" required>
                         </div>
                          <div class="form-group">
                             <label for="pwd"> Password  </label>
-                            <input type="password" class="form-control" id = "pwd" placeholder="Password">
+                            <input type="password" class="form-control" id = "pwd" placeholder="Password" name="Password" required>
                         </div>
                         <div class="form-group">
-                            <button type="button" class="btn btn-success">Sign in</button>
+                            <button type="submit" class="btn btn-success">Sign in</button>
+                        </div>
+                        <div class="form-group">
+                            <label style="color: red"> {{display_error}} </label>
                         </div>
                     </form>
                 </div>

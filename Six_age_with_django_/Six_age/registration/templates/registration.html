@@ -2,79 +2,144 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
-    <!-- Latest compiled JavaScript -->
+    <script>
+        $(document).ready(function(){
+            var src = $('.active.carousel_two').find('img').attr('src');
+            $("#image_name").val(src);
+            $('#main_carousel').on('slide.bs.carousel', function () {
+                setTimeout(function() {
+                    var src = $('.active.carousel_two').find('img').attr('src');
+                    $("#image_name").val(src);
+                },800);
+            });
+        });
+    </script>
+    <style>
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Six ages</title>
 </head>
 
 
-<body background="../static/images/Wallpaper.jpg" style="background-size: cover;background-position: center center;">
+<body background="../static/images/wallapaper.jpg" style="background-size: cover;background-position: center center;">
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">
-	SIX - AGES
-      </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-       <li class=""><a href="http://127.0.0.1:8000">Home</a></li>
-       <li class=""><a href="http://127.0.0.1:8000/arcade/">Arcade</a></li>
-       <li class=""><a href="http://127.0.0.1:8000/action/">Action</a></li>
-       <li class=""><a href="http://127.0.0.1:8000/puzzle/">Puzzle</a></li>
-       <li class=""><a href="http://127.0.0.1:8000/sport/">Sport</a></li>
-       <li class=""><a href="http://127.0.0.1:8000/strategy/">Strategy</a></li>
-       </ul>
-        <ul class="nav navbar-nav navbar-right">
-           <li><a href="http://127.0.0.1:8000/signin/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li style="color: white;padding-top: 12px;"><b>|</b></li>
-           <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-         </ul>
-    </div>
-  </div>
-</nav>
+    {% load static %}
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+        SIX - AGES
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+           <li class=""><a href="http://127.0.0.1:8000">Home</a></li>
+           <li class=""><a href="http://127.0.0.1:8000/arcade/">Arcade</a></li>
+           <li class=""><a href="http://127.0.0.1:8000/action/">Action</a></li>
+           <li class=""><a href="http://127.0.0.1:8000/puzzle/">Puzzle</a></li>
+           <li class=""><a href="http://127.0.0.1:8000/sport/">Sport</a></li>
+           <li class=""><a href="http://127.0.0.1:8000/strategy/">Strategy</a></li>
+           </ul>
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="http://127.0.0.1:8000/signin/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li style="color: white;padding-top: 12px;"><b>|</b></li>
+               <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+             </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="container text-left">
         <div class="row" >
-            <div class="col-md-7"></div>
+            <div class="col-md-8">
+                <div class="row">
+                    <img src="../static/images/SixAgesLogo.png" class="img-responsive" style="display: block;margin: auto">
+                </div>
+                <br>
+                <div class="row">
+                    <h3 class="text-leff" style="color: white ;text-shadow: 2px 2px #FF0000">List of Avatars :</h3>
+                </div>
+                <div class="row">
+                    {% for row_avatar in all_avatar %}
+                   <div class="col-sm-1" style="padding: 0">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval=400 data-pause="false">
+                        <div class="carousel-inner">
+                            {% for avatar in row_avatar %}
+                            <div {% if avatar.display %}class="item active"{% else %}class="item"{% endif %}>
+                                <!--{{avatar.display}}-->
+                                <img src="{% static '' %}avatar/{{ avatar.avatar_image_name }}" alt="" style="width:100%;">
+                            </div>
+                            {% endfor %}
+                      </div>
+                    </div>
+                   </div>
+                    {% endfor %}
+                <br>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
             <div class="col-md-4">
-                <img src="../static/images/SixAgesLogo.png" class="img-responsive">
                 <h3 class="text-center" style="color: white ;text-shadow: 2px 2px #FF0000">Sign up for Six Ages</h3>
+                <br>
                 <div class="well">
-                    <form action="">
-			<div class="form-group">
-                            <label for="uname"> Username  </label>
-                            <input type="text" class="form-control" id = "uname" placeholder="Username">
+                    <div class="row">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4" style="padding: 0">
+                        <div id="main_carousel" class="carousel slide" data-ride="carousel" data-interval="false" >
+
+                              <div class="carousel-inner">
+                                  {% for avatar in avatars %}
+                                <div {% if forloop.first %}class="item carousel_two active"{% else %}class="item carousel_two"{% endif %}>
+                                    <img src="{% static '' %}avatar/{{ avatar.avatar_image_name }}" alt="" style="width:100%;">
+                                </div>
+                                  {% endfor %}
+                              </div>
+
+                              <a class="left carousel-control" href="#main_carousel" data-slide="prev" style="background-image: none">
+                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#main_carousel" data-slide="next" style="background-image: none">
+                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                        </div>
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                    <br>
+                    <form action="/signup/create_user" method="post">{% csrf_token %}
+                        <input type="text" class="form-control" id = "image_name" name="Imagename" style="display: none">
+			            <div class="form-group">
+                            <label for="username" > Username (6-12 char.) </label>
+                            <input type="text" class="form-control" id = "username" placeholder="Username" name="Username"  pattern="(.){6,12}" required>
                         </div>
                         <div class="form-group">
                             <label for="email"> Email Id  </label>
-                            <input type="email" class="form-control" id = "email" placeholder="Email">
-                        </div>
-                         <div class="form-group">
-                            <label for="pwd"> Password  </label>
-                            <input type="password" class="form-control" id = "pwd" placeholder="Password">
+                            <input type="email" class="form-control" id = "email" placeholder="Email" name="Email" required>
                         </div>
                         <div class="form-group">
-                            <button type="button" class="btn btn-success">Sign in</button>
+                            <label for="password"> Password (6-12 char.) </label>
+                            <input type="password" class="form-control" id = "password" placeholder="Password" name="Password" pattern="(.){6,12}" required>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 0;">
+                            <button type="submit" class="btn btn-success" id="first_form" onclick="myfunction(e)" >Sign in</button>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="col-md-1"></div>
-
-        </div>
     </div>
+</div>
 </body>
 </html>
