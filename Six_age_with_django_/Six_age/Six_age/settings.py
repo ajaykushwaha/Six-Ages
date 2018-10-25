@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'sign_in',
     'Welcome',
     'registration',
+    'settings_personalize',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "Game_images"),
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'Game_images')

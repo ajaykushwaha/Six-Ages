@@ -2,294 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2009b6-903b-46fa-98b5-a31d593a9adf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/360catcher.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/3dsuperball.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/41streality.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/5differences.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/6differences.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/Darkbase_Alien_RTS.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/adrenaline.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/alaskanadversary.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/apokalyx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/applehunt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/arnesdemano.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/asea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/asteroidsrevenge3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/astroseries.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/attackOTBGMT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/autumnwar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ballpuzzle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/battlestar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/beanfling.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/bigfish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/bitshift.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/blueshift.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/bountykillers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxhead.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxhead2play.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxhead_the_christmas_nightmare.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxhead_the_nightmare-biever_and_baby.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxhead_the_nightmare.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxheadmorerooms.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxheadrooms.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/boxheadzw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/braidy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/brainbots.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/busyburger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/captbraidy2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/captbraidy3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/caveescape.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/chargeball.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/charmy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/checkers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/checkers.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/checkerscode.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/chompy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/chompywr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/climbingninja.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/colorball2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/combots.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/cometbuster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/cosmicblast.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/cosmiccrush.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/crazyflasher2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/crazyflasher3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/crazyflasher4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/creeping.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/cubetema.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/darkbase.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/darkbase2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/darkbase3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/darkbase_rts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/darkhorizon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/deadtree.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/deathmatch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/deathtrip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/deepcreatures.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/defendnorth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/detonate.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/detonate2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/dodohunt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/drowsfury.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/dryfire.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/dueladventure.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/duoblaster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/dupligon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/eggyeaster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/eternalred.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/exofusion2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ezr2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fith.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fith2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/foofarace.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/foofarace2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fooix.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fracture.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fracture2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fragassault.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/frantic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/freewayfury.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fuzzy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fuzzy2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/fuzzy3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/glaikittyfyke.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/gogoplant.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/gogoplant2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/goingup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/guy2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/guy3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/h-bounce.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hangingaround.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hardcourt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/helistorm2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hexstar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hotbloodboxing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hotlz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hoverbotarena.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hoverbotarena2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hovertanks.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hovertanks2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/hungryfish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/inquisitivedave.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/jeeves.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/jumpagon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/junospore.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/killchristmas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/kingdomkeeper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/kingsisland.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/kingsisland2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/knox.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/krazykeys.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ladybug.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/legacyofguy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/linearassault.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/linerunner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/linkaball.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/loa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/madmonday.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/madnesscombatdefense.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/manhunt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/marathon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/mardek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/mardek2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/massattack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/methustd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/mokomoko.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/monstermaster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/motelconnection.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/mrpenguin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/msoids.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/neon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/neon2-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/neon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/nibbles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/nightmarekingdom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/nomorereinforcements.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/nudge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ogg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/omegawarrior.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/orbital.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pandemic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pandemic2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pandemicEOM.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/parajumper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pf2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pigeon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pigeon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pirates.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pits.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pizzaboy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/planktonlife.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/planktonlife2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/playingfield.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/poink.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/postalpanic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/practicechapped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/prisonthrow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pumpkinbattle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pumpkinrun.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/pyroblossom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/quibeland.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/quibelandevolution.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/qwerty.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/qwerty2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/rage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/raidenx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/rainbowblitz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/rainwords.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ratmaze2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/reachthesky_70x70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/rebounce.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/redjetrabbit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/redshift.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/redwire.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ricehat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/rocketweasel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/saturdaynightbloodfest.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/saucerstrike.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/savethearmy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/saveusfromprivatebrian.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/seascape.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/seasonofwar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/shadez.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/shadez2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/shadez3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/shotgunorc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/skillstack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/skychopper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/spellduelist.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/spiderbugs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/spitwad.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stabika2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stickdefense.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stickmansam1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stickmansam2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stickmansam3_70x70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stickmansam4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stinkybean.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/stinkybean2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/strategydefense.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/strategydefense2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/strategydefense3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/strategydefense4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/strategydefense5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/superhyberdoze.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/superninjastrike.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/superpang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/suprb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/swarm2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tacass.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tacass3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tacticalassassin2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tacticalassassinsubstratum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tankpatrol.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tcnx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/telekineticeric.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/thing-thing-arena-classic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/thing-thing-arena-pro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/thing-thing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/thing-thing2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/thing-thing4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/thing-thingarena.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/throughthemachine.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tornado.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/toxie-radd-3d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/toxieradd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/toxieradd2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/treasureseas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/trid3nt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/trid3nt.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/trn47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/trollsrage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tt3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tta2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/tta3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/turret.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/turretdefense2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/type.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ufglow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ufomania.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ultimatecrabbattle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/ultimatedefense.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/unfairytales.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/vanguards.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/vanjellies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/visible.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/visible2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/warmachines.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/weaponsofmathsdestruction.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/wingsofglory.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/wonderlight.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/wone.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/wone2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/xrunning.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/zh3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/zombiehorde.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/zombiehorde2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/zombieinvaders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/zombierampage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/Projectgames/zombiesurvival.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Database Development/Projectgames-20181011T040603Z-001/game_details.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Game_images/avatar/bulba.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/static/images/Wallpaper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/static/images/Wallpaper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/migrations/0002_comments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/migrations/0003_remove_game_game_comments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/migrations/0002_avatars.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/migrations/0003_userdetails_avatar_image.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation_/Requirement analysis.doc" afterPath="$PROJECT_DIR$/Documentation_/Requirement analysis.doc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/migrations/0001_initial.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/game_play.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/game_play.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/commands.txt" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/commands.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/migrations/0001_initial.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/templates/signIn.html" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/templates/signIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/views.py" afterPath="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/views.py" />
     </list>
     <ignored path="Six-Ages.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -322,89 +54,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#203#725#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+            <state relative-caret-position="391">
+              <caret line="150" column="39" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="39" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <element signature="e#300#831#0" expanded="false" />
-                <element signature="e#872#1262#0" expanded="false" />
-                <element signature="e#1308#2824#0" expanded="false" />
-                <element signature="e#2852#3403#0" expanded="false" />
-                <element signature="e#3445#5617#0" expanded="false" />
-                <element signature="e#5969#6143#0" expanded="false" />
+                <element signature="e#302#835#0" expanded="false" />
+                <element signature="e#877#1739#0" expanded="false" />
+                <element signature="e#1785#3311#0" expanded="false" />
+                <element signature="e#3339#3938#0" expanded="false" />
+                <element signature="e#3981#6167#0" expanded="false" />
+                <element signature="e#6203#6501#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html">
+      <file leaf-file-name="template_welcome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="381">
+              <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
               <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show_games.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="21" column="96" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="96" />
-              <folding>
-                <element signature="e#632#664#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -427,24 +99,28 @@
       <list>
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/models.py" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/Arcade.html" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/game_play.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templatetags/__init__.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/templates/signIn.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/views.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py" />
-        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html" />
         <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/views.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/templates/Change_password.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/templates/admin_control .html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/templates/settings.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py" />
+        <option value="$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html" />
       </list>
     </option>
   </component>
@@ -504,8 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -556,100 +230,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six-Ages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age_with_django_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Six_age" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -920,26 +504,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.4101307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="489" y="327" width="467" height="251" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -955,53 +539,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1082,13 +630,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1116,89 +657,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/static/images/Wallpaper.jpg" />
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/game_play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/desktop.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templatetags/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templatetags/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/templates/signIn.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="59" column="120" selection-start-line="59" selection-start-column="120" selection-end-line="59" selection-end-column="120" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,101 +677,201 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1769">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="21" column="96" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="96" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/show_games.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="192">
+          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/sign_in/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="136" column="122" selection-start-line="136" selection-start-column="122" selection-end-line="136" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="137" column="48" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#203#725#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/registration/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/templates/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/templates/Change_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_age/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="44" column="68" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/templates/mainpage_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#ul#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/game_play.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/type_game_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/settings_personalize/templates/admin_control .html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="85" column="12" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Six_ages/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+        <state relative-caret-position="391">
+          <caret line="150" column="39" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="39" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="e#300#831#0" expanded="false" />
-            <element signature="e#872#1262#0" expanded="false" />
-            <element signature="e#1308#2824#0" expanded="false" />
-            <element signature="e#2852#3403#0" expanded="false" />
-            <element signature="e#3445#5617#0" expanded="false" />
-            <element signature="e#5969#6143#0" expanded="false" />
+            <element signature="e#302#835#0" expanded="false" />
+            <element signature="e#877#1739#0" expanded="false" />
+            <element signature="e#1785#3311#0" expanded="false" />
+            <element signature="e#3339#3938#0" expanded="false" />
+            <element signature="e#3981#6167#0" expanded="false" />
+            <element signature="e#6203#6501#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Six_age_with_django_/Six_age/Welcome/templates/template_welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

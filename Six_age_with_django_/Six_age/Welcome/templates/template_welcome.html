@@ -39,11 +39,19 @@
        <li class="{{ active5 }}"><a href="http://127.0.0.1:8000/sport/">Sport</a></li>
        <li class="{{ active6 }}"><a href="http://127.0.0.1:8000/strategy/">Strategy</a></li>
        </ul>
+        {% if is_login == 0 %}
         <ul class="nav navbar-nav navbar-right">
            <li><a href="/signin"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             <li style="color: white;padding-top: 12px;"><b>|</b></li>
            <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
          </ul>
+        {% else %}
+        <a href="http://127.0.0.1:8000/mainpage/" style="float: right">
+            <button type="button" class="btn-lg" style="color: black;background-color: white;margin-top: 2px;margin-bottom: 2px;">
+                <span class="glyphicon glyphicon-knight"></span> Game Arena</button>
+        </a>
+        {% endif %}
+
     </div>
   </div>
 </nav>

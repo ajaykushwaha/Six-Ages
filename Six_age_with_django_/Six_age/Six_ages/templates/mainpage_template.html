@@ -70,11 +70,11 @@
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Signed in as {{ username }}</a></li>
+                                <li><a href="#">Signed in as <b>{{ username }}</b></a></li>
                                 <hr style="margin: 0;">
-                                <li><a href="#">Your Profile</a></li>
-                                <li><a href="#">Help</a></li>
-                                <li><a href="#">Settings</a></li>
+                                <li><a href="http://127.0.0.1:8000/mainpage/setting/change_pass/">Change your password</a></li>
+                                <li><a href="http://127.0.0.1:8000/mainpage/setting/add_a_game/">Add games</a></li>
+                                <li><a href="http://127.0.0.1:8000/mainpage/setting/delete_a_game/">Delete games</a></li>
                                 <li><a href="http://127.0.0.1:8000/mainpage/logout">Logout</a></li>
                             </ul>
                         </li>
@@ -90,7 +90,7 @@
                 <div class="affix">
                 <div class="well">
                     <p><a href="#">My Profile</a></p>
-                    <img src="{% static '' %}{{avatar_image}}" class="img-circle" height="65" width="65" alt="Avatar">
+                    <img src="{% static '' %}{{avatar_image}}" height="65" width="65" alt="Avatar">
                 </div>
                 <div class="well">
                     <p style="color: blue">Top Charts</p>

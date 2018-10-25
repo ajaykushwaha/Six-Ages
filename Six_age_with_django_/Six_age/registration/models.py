@@ -6,6 +6,7 @@ class UserDetails(models.Model):
     Email = models.CharField(max_length=20)
     Password = models.CharField(max_length=20)
     Avatar_image = models.CharField(max_length=50)
+    is_admin = models.IntegerField(default=0)
 
     class Meta:
         db_table = "User_Details"

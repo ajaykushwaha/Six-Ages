@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponseNotFound,HttpResponse
+from django.http import HttpResponseNotFound, HttpResponse
 from django.core.paginator import Paginator
 from registration.models import UserDetails
-from Six_ages.models import Game,Comments
+from Six_ages.models import Game, Comments
 from django.http import JsonResponse
 
 
@@ -18,18 +18,27 @@ def mainpage(request):
         myimage = ""
         for images in user_images:
             myimage = images.Avatar_image
-        return render(request, 'mainpage.html', {"mygame": objects, "username": uname,"avatar_image":myimage})
+        return render(request, 'mainpage.html', {"mygame": objects, "username": uname, "avatar_image": myimage})
     except:
         return redirect("http://127.0.0.1:8000/")
 
+
 def show_game(request, game_name):
+    comment_user_image = ""
     try:
         uname = request.session['UserName']
         user_images = UserDetails.objects.filter(Username=uname)
         myimage = ""
         for images in user_images:
             myimage = images.Avatar_image
-        return render(request, 'show_games.html', {"game_title": game_name,'username':uname,'avatar_image':myimage})
+        comment_whole_details = Comments.objects.filter(game_name=game_name).reverse()
+        for my_comment in comment_whole_details:
+            comment_user_details = UserDetails.objects.filter(Username=my_comment.Username)
+            for user in comment_user_details:
+                comment_user_image = user.Avatar_image
+            my_comment.avatar_image = comment_user_image
+        return render(request, 'show_games.html',
+                      {"game_title": game_name, 'username': uname, 'avatar_image': myimage,'comment':comment_whole_details})
     except:
         return redirect("http://127.0.0.1:8000/")
 
@@ -47,19 +56,19 @@ def filter_type(request, filter_name):
             myimage = images.Avatar_image
         if filter_name == "Arcade":
             return render(request, 'mainpage.html',
-                          {"mygame": objects, "active2": 'active', "username": uname,'avatar_image':myimage})
+                          {"mygame": objects, "active2": 'active', "username": uname, 'avatar_image': myimage})
         elif filter_name == "Action":
             return render(request, 'mainpage.html',
-                          {"mygame": objects, "active3": 'active', "username": uname,'avatar_image':myimage})
+                          {"mygame": objects, "active3": 'active', "username": uname, 'avatar_image': myimage})
         elif filter_name == "Puzzle":
             return render(request, 'mainpage.html',
-                          {"mygame": objects, "active4": 'active', "username": uname,'avatar_image':myimage})
+                          {"mygame": objects, "active4": 'active', "username": uname, 'avatar_image': myimage})
         elif filter_name == "Sport":
             return render(request, 'mainpage.html',
-                          {"mygame": objects, "active5": 'active', "username": uname,'avatar_image':myimage})
+                          {"mygame": objects, "active5": 'active', "username": uname, 'avatar_image': myimage})
         elif filter_name == "Strategy":
             return render(request, 'mainpage.html',
-                          {"mygame": objects, "active6": 'active', "username": uname,'avatar_image':myimage})
+                          {"mygame": objects, "active6": 'active', "username": uname, 'avatar_image': myimage})
         else:
             return HttpResponseNotFound("No such category")
     except:
@@ -75,13 +84,15 @@ def search(request):
         myimage = ""
         for images in user_images:
             myimage = images.Avatar_image
-        return render(request, 'mainpage.html',{"mygame": objects, "search_term": game_name_contains, "username": uname,'avatar_image':myimage})
+        return render(request, 'mainpage.html',
+                      {"mygame": objects, "search_term": game_name_contains, "username": uname,
+                       'avatar_image': myimage})
 
     except:
         return redirect("http://127.0.0.1:8000/")
 
 
-def top_chart(request,chart_name):
+def top_chart(request, chart_name):
     try:
         uname = request.session['UserName']
         user_images = UserDetails.objects.filter(Username=uname)
@@ -90,34 +101,34 @@ def top_chart(request,chart_name):
             myimage = images.Avatar_image
         if chart_name == "t_10_arcade":
             objects = Game.objects.filter(game_type="Arcade").order_by('-game_rating')[:10]
-            return render(request, 'mainpage.html', {"mygame": objects, "username": uname,'avatar_image':myimage})
+            return render(request, 'mainpage.html', {"mygame": objects, "username": uname, 'avatar_image': myimage})
 
         elif chart_name == "t_10_action":
             objects = Game.objects.filter(game_type="Action").order_by('-game_rating')[:10]
-            return render(request, 'mainpage.html', {"mygame": objects, "username": uname,'avatar_image':myimage})
+            return render(request, 'mainpage.html', {"mygame": objects, "username": uname, 'avatar_image': myimage})
 
         elif chart_name == "t_10_puzzle":
             objects = Game.objects.filter(game_type="Puzzle").order_by('-game_rating')[:10]
-            return render(request, 'mainpage.html', {"mygame": objects, "username": uname,'avatar_image':myimage})
+            return render(request, 'mainpage.html', {"mygame": objects, "username": uname, 'avatar_image': myimage})
 
         elif chart_name == "t_10_sport":
             objects = Game.objects.filter(game_type="Sport").order_by('-game_rating')[:10]
-            return render(request, 'mainpage.html', {"mygame": objects, "username": uname,'avatar_image':myimage})
+            return render(request, 'mainpage.html', {"mygame": objects, "username": uname, 'avatar_image': myimage})
 
         elif chart_name == "t_10_strategy":
             objects = Game.objects.filter(game_type="Strategy").order_by('-game_rating')[:10]
-            return render(request, 'mainpage.html', {"mygame": objects, "username": uname,'avatar_image':myimage})
+            return render(request, 'mainpage.html', {"mygame": objects, "username": uname, 'avatar_image': myimage})
 
         elif chart_name == "t_10_editors_choice":
             objects = Game.objects.filter().order_by('-game_rating')[:10]
-            return render(request, 'mainpage.html', {"mygame": objects, "username": uname,'avatar_image':myimage})
+            return render(request, 'mainpage.html', {"mygame": objects, "username": uname, 'avatar_image': myimage})
 
         elif chart_name == "all_games":
             objects = Game.objects.all()
             paginator = Paginator(objects, 24)
             page = request.GET.get('page')
             objects = paginator.get_page(page)
-            return render(request, 'mainpage.html', {"mygame": objects, "username": uname,'avatar_image':myimage})
+            return render(request, 'mainpage.html', {"mygame": objects, "username": uname, 'avatar_image': myimage})
 
         else:
             return HttpResponseNotFound("No such category")
@@ -128,9 +139,9 @@ def top_chart(request,chart_name):
 
 def making_comment(request):
     comment = request.POST.get('comment', '')
-    game_name = request.POST.get('game_name', '')
+    game_name = request.POST.get('game_name', '')[20:-4]
     user_name = request.POST.get('user_name', '')
-    dr1 = Comments(comment=comment, game_name=game_name, uname=user_name)
+    dr1 = Comments(comment=comment, game_name=game_name, Username=user_name)
     dr1.save()
     return JsonResponse({'success': 'added the comment'})
 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Settings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    .row.content {height: 1500px}
+
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+      html,body,.container-fluid,.row{
+          height: 100%;
+      }
+  </style>
+  <script>
+
+      function noPreview() {
+      $('#image-preview-div').css("display", "none");
+      $('#preview-img').attr('src', 'noimage');
+    }
+
+    function selectImage(e) {
+      $('#file').css("color", "green");
+      $('#image-preview-div').css("display", "block");
+      $('#preview-img').attr('src', e.target.result);
+      $('#preview-img').css('max-width', '200px');
+    }
+
+      $(document).ready(function(){
+      $('#file').change(function() {
+
+        var file = this.files[0];
+        var match = ["image/jpeg", "image/png", "image/jpg"];
+
+        if ( !( (file.type == match[0]) || (file.type == match[1]) || (file.type == match[2]) ) )
+        {
+          noPreview();
+            alert("Please provide .png , .jpg , .jpeg file format only.")
+          return false;
+        }
+
+
+        var reader = new FileReader();
+        reader.onload = selectImage;
+        reader.readAsDataURL(this.files[0]);
+
+      });
+      });
+  </script>
+</head>
+<body>
+{% load static %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 sidenav">
+      <h3>My Settings</h3>
+        <br>
+        <ul class="nav nav-pills nav-stacked">
+        <li><a href="http://127.0.0.1:8000/mainpage/setting/change_pass/">Change your password</a></li>
+        <li><a href="http://127.0.0.1:8000/mainpage/setting/add_a_game/">Contribute a game</a></li>
+        <li class="active"><a href="#">Remove games</a></li>
+      </ul><br>
+        <a href="http://127.0.0.1:8000/mainpage/">
+            <button type="button" class="btn-lg"><span class="glyphicon glyphicon-knight"></span> Game Arena</button>
+        </a>
+    </div>
+
+    <div class="col-sm-9">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Remove Games</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 10px;">
+            {% for game in all_game %}
+            <div class="col-sm-2 ">
+            <div class="card" style="border: 1px solid #c4b9b9;background-color: #f5f5f5;border-radius: 8px;width: 102px;box-shadow: 5px 5px #f5f5f5">
+            <a href="http://127.0.0.1:8000/game/{{game.game_swf}}">
+                <img src="{% static '' %}{{game.game_images}}" alt="card three" class="card-top-image" width="100" height="100" style="border-radius: 5px;">
+            </a>
+            <div class="card-body">
+            <p style="text-align: center;">{{game.game_display_name}}</p>
+             <a href="http://127.0.0.1:8000/mainpage/setting/delete_a_game/{{game.game_swf}}">
+                 <button type="button" class="btn-sm" style="width: 100%;color: red">
+                     <span class="glyphicon glyphicon-remove"></span>
+                     Remove
+                 </button>
+            </div>
+            </div>
+            </div>
+            {% if forloop.counter|divisibleby:6 %}
+            </div>
+            <br>
+            <div class="row" style="margin-bottom: 10px;">
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,3 +1,9 @@
 http://127.0.0.1:8000/
 python manage.py runserver
 python manage.py startapp myapp
+
+
+delete migartion folder , in  _pychce_  delete  'model' ---------
+python manage.py makemigrations registration
+python manage.py migrate --fake registration zero
+python manage.py migrate registration
