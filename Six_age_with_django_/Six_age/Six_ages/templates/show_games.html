@@ -1,5 +1,5 @@
 {% extends "mainpage_template.html" %}
-{% block title %} Play Games {% endblock %}
+{% block title %} Idea {% endblock %}
 
 {% block content %}
     {% load static %}
@@ -14,15 +14,6 @@
                         game_name: '{{ request.path }}' ,
                         user_name: '{{ username }}'
                 };
-
-
-
-
-
-
-
-
-
 
                 $.ajax({
                       type: 'POST',
